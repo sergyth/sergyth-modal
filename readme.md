@@ -23,8 +23,8 @@ yarn add sergyth-modal
 Pour utiliser le composant `Modal`, importez-le dans votre composant et ajoutez-le à votre JSX :
 
 ```jsx
-import React, { useState } from "react";
-import Modal from "sergyth-modal";
+import { useState } from "react";
+import { Modal } from "sergyth-modal";
 
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
